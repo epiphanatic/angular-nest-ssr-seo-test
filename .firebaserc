@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "bounti-dev-34f18": {
+      "hosting": {
+        "ssr-seo-test": [
+          "bounti-dev-34f18"
+        ]
+      }
+    }
+  }
+}

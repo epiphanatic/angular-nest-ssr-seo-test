@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ssr-seo-test",
+      "public": "dist/ssr-seo-test/browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
